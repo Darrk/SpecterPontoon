@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="break_added">Break added</string>
+  <string name="add_break">Add a break</string>
+  <string name="working">Working</string>
+  <string name="timer">Timer</string>
+
+  <string name="pdf">Pdf</string>
+  <string name="excel">Excel</string>
+  <string name="calendar_settings">Calendar settings</string>
+  <string name="account">Account</string>
+  <string name="using_specter_identity">using Specter identity</string>
+  <string name="work_hours_monday">Work hours on monday</string>
+  <string name="work_hours_tuesday">Work hours on tuesday</string>
+  <string name="work_hours_wednesday">Work hours on wednesday</string>
+  <string name="work_hours_thursday">Work hours on thursday</string>
+  <string name="work_hours_friday">Work hours on friday</string>
+  <string name="work_hours_saturday">Work hours on saturday</string>
+  <string name="work_hours_sunday">Work hours on sunday</string>
+  <string name="work_hours">Work hours</string>
+  
+  <string name="message">Message</string>
+  <string name="feedback_success">Feedback sent.</string>
+  <string name="feedback_failed">Feedback sending failed. Try again later.</string>
+  <string name="feedback_no_message">Message is required!</string>
+  <string name="sync">Sync</string>
+  <string name="unsynced_events">Unsynced events: </string>
+  <string name="data_synced">Data synced</string>
+
+  <string name="fb_app_id">215309878646770</string>
+  <string name="com.crashlytics.android.build_id">37</string>
+  <string name="app_name">Working Timer</string>
+  <string name="app_title">Working Timer - Working hours</string>
+  <string name="share_completed">Successfully shared</string>
+  <string name="share_canceled">Sharing canceled</string>
+  <string name="share_error">Error occurred when sharing</string>
+
+  <!-- MENU -->
+  <string name="menu_profile">Profile</string>
+  <string name="menu_import">Import</string>
+  <string name="menu_export">Export</string>
+  <string name="menu_share">Share App</string>
+  <string name="menu_send_report">Report Developer</string>
+  <string name="menu_rate">Rate App</string>
+  <string name="menu_pro">Pro version</string>
+  <string name="menu_about">About</string>
+  <string name="email_error">Sending of email unsuccessful.</string>
+
+  <string name="month_1">January</string>
+  <string name="month_2">February</string>
+  <string name="month_3">March</string>
+  <string name="month_4">April</string>
+  <string name="month_5">May</string>
+  <string name="month_6">June</string>
+  <string name="month_7">July</string>
+  <string name="month_8">August</string>
+  <string name="month_9">September</string>
+  <string name="month_10">October</string>
+  <string name="month_11">November</string>
+  <string name="month_12">December</string>
+  <string name="main_table">Summary</string>
+  <string name="hours_worked">Hours worked:</string>
+  <string name="hours_ot">Overtime:</string>
+  <string name="in">In</string>
+  <string name="out">Out</string>
+  <string name="ok">Ok</string>
+  <string name="cancel">Cancel</string>
+
+  <!-- MULTI SETUP -->
+  <string name="msetup_title">Bulk insert</string>
+  <string name="msetup_from">From</string>
+  <string name="msetup_to">To</string>
+  <string name="msetup_sats">Saturdays</string>
+  <string name="msetup_suns">Sundays</string>
+  <string name="msetup_olds">Delete old records</string>
+
+  <!-- PROFILE -->
+  <string name="profile_name">Name</string>
+  <string name="profile_work_time">Length of work time</string>
+  <string name="profile_break">Length of break</string>
+  <string name="profile_rounding">Time rounding</string>
+  <string name="profile_holidays">Vacation days per year</string>
+  <string name="profile_flexible">I am freelancer</string>
+  <string name="profile_cash">Money per hour</string>
+  <string name="profile_create">Create</string>
+  <string name="delete">Delete</string>
+  <string name="profile_save">Save</string>
+  <string name="table_day">Day</string>
+  <string name="table_in">In</string>
+  <string name="table_out">Out</string>
+  <string name="table_break">Break</string>
+  <string name="table_hours">Hours</string>
+  <string name="table_overtime">Overtime</string>
+  <string name="table_holiday">Vacation</string>
+  <string name="table_note">Note</string>
+  <string name="table_working_days">Working days:</string>
+  <string name="table_monthly_fund">Monthly fund:</string>
+  <string name="table_summary">Summary</string>
+  <string name="day_illness">Illness</string>
+  <string name="day_holidays">Vacation</string>
+  <string name="day_holidays_2">Holiday</string>
+  <string name="day_cash_per_hour">Money per hour</string>
+  <string name="day_paid">Paid</string>
+  <string name="day_unpaid">Unpaid</string>
+  <string name="add_new_line">
+    <u>New record</u>
+  </string>
+
+  <!-- HELP MSGS -->
+  <string name="help_mark">\?</string>
+  <string name="msg_profile_limit">Your reached limit of profiles.</string>
+  <string name="msg_profile_empty_name">Profile name is empty.\n</string>
+  <string name="msg_profile_long_name">Profile name is too long. (more than 20 chars)\n</string>
+  <string name="msg_profile_worktime_format">Work time has bad format.\n</string>
+  <string name="msg_profile_breaktime_format">Break has bad format.\n</string>
+  <string name="msg_profile_roundtime_format">Time Rounding has bad format.\n</string>
+  <string name="msg_profile_holidays_format">Vacation has bad format.\n</string>
+  <string name="msg_profile_cash_format">Money per hour has bad format.\n</string>
+  <string name="msg_profile_created">Profile created.</string>
+  <string name="msg_profile_updated">Profile updated.</string>
+  <string name="msg_msetup_empty_from">Date FROM is empty.\n</string>
+  <string name="msg_msetup_empty_to">Date TO is empty.\n</string>
+  <string name="msg_msetup_empty_in">Time IN is empty.\n</string>
+  <string name="msg_msetup_empty_out">Time OUT is empty.\n</string>
+  <string name="msg_msetup_bad_from_to">Count of days between FROM and TO is negative.\n</string>
+
+  <string name="help_profile_work_time">Enter the length of working hours without a break (in hours)</string>
+  <string name="help_profile_break">Enter the length of the pause (in hours)</string>
+  <string name="help_profile_rounding">Rounds time of arrival and departure to the set value (valid only for the arrival / departure)</string>
+  <string name="help_profile_holidays">Enter the number of days remaining vacation</string>
+  <string name="help_profile_flexible">Check flexible working time only if you do not have a clearly defined monthly fund hours (not including overtime)</string>
+  <string name="help_profile_cash">Enter your hourly wage (per hour worked see how much money you have earned)</string>
+  <string name="msg_maximum_users_reached">Maximum number of users has been reached.</string>
+
+  <string name="msg_you_sure">Are You sure?</string>
+  <string name="msg_file_not_exists">Import file not exists.</string>
+  <string name="msg_file_not_export">Export wasn\'t successful for I/O error.</string>
+  <string name="msg_export_success">Action successful. Export file was created.</string>
+  <string name="msg_import_failed">Import failed for I/O error.</string>
+  <string name="msg_import_delete">Delete old records?</string>
+  <string name="msg_import_success">Import successful.</string>
+
+  <string name="notify_counting">Counting is on</string>
+  <string name="page_summary">Summary</string>
+  <string name="page_table">Month table</string>
+  <string name="page_profile">Profile</string>
+
+
+  <string name="hours">h</string>
+  <string name="days">d</string>
+  <string name="about">
+    is an application developed specifically for those who recorded the time spent at work.\n
+    You can register as fixed working hours and flexible.\n
+    You have a great overview of all the days and months spent working (hours, overtime , earned money , vacation&#8230;)\n
+    You can set up multiple profiles if you have more work or projects at once.\n
+    \n
+    Important is the first set when creating a profile.\n
+    \n
+    When you forget to turn in / out you can manually edit directly from the report.\n
+  </string>
+
+  <!-- DAYS OF WEEK -->
+  <string name="monday">Mo</string>
+  <string name="tuesday">Tu</string>
+  <string name="wednesday">We</string>
+  <string name="thursday">Th</string>
+  <string name="friday">Fr</string>
+  <string name="saturday">Sa</string>
+  <string name="sunday">Su</string>
+
+  <string name="month_money">Money: </string>
+  <string name="month_overtime">Overtime: </string>
+  <string name="month_holidays">Vacation: </string>
+  <string name="annual">Annual overview</string>
+
+  <string name="profile_backup">Backup data</string>
+  <string name="profile_restore">Restore data</string>
+  <string name="profile_last_backup">last backup: </string>
+
+  <!-- FINANCE MODELS -->
+  <string name="finance_model">Finances</string>
+  <string name="finances_regular">Money per regular hour</string>
+  <string name="finances_overtime">Overtime (money per hour)</string>
+  <string name="finances_saturday">Saturday (money per hour)</string>
+  <string name="finances_sunday">Sunday (money per hour)</string>
+  <string name="finances_holiday">Holiday (money per hour)</string>
+  <string name="finances_shifts">Use shifts</string>
+  <string name="finances_shift_afternoon">Afternoon shift (money per hour)</string>
+  <string name="finances_shift_night">Night shift (money per hour)</string>
+  <string name="finances_reset_dialog">Are you sure to reset data?</string>
+  <string name="msg_finances_save">Finances saved</string>
+  <string name="msg_finances_reset">Finances reset</string>
+
+  <string name="day_shifts">Use shifts</string>
+  <string name="day_finances">Use finances</string>
+  <string name="reset">Reset</string>
+  <string name="settings">Settings</string>
+  <string name="profile_planned_in">Planned arrival time</string>
+  <string name="profile_planned_out">Planned leave time</string>
+  <string name="profile_weekend_overtime">Weekend as overtime</string>
+  <string name="profile_weekend_workday">Weekend as work day</string>
+
+  <!-- PROJECT -->
+  <string name="project_start_date">Start date</string>
+  <string name="project_deadline">Deadline</string>
+  <string name="project_budget">Budget</string>
+  <string name="project_desc">Description</string>
+  <string name="project_notify">Notify before deadline</string>
+
+  <!-- API -->
+  <string name="email">E-mail</string>
+  <string name="no_connection">You have to be online first.</string>
+  <string name="action_export">Export attendance</string>
+  <string name="export_success">Attendance has been sent to the given email.</string>
+  <string name="export_error">Unable to send attendance file on the email. Try again later.</string>
+  <string name="export_limit_reached">Limit for the month has been reached (3).</string>
+
+  <string name="profile_working_period">Working period</string>
+  <string-array name="profile_working_periods">
+    <item>Month</item>
+    <item>Week</item>
+  </string-array>
+  <string name="profile_start_of_week">Start of a week</string>
+  <string-array name="profile_day_of_week">
+    <item>Monday</item>
+    <item>Tuesday</item>
+    <item>Wednesday</item>
+    <item>Thursday</item>
+    <item>Friday</item>
+    <item>Saturday</item>
+    <item>Sunday</item>
+  </string-array>
+
+  <!-- Login -->
+  <string name="google_services_missing">Your are missing Google Play. For run of the app You must get it first.</string>
+  <string name="google_services_outdated">Your Google Play is out of date. For run of the app You must get update first.</string>
+  <string name="error_my_profile">Unable to load user profile.</string>
+  <string name="unknown_error">Error just occurred. Please try again later.</string>
+  <string name="error_email">E-mail cannot be sent. Try again later.</string>
+  <string name="forgot_pass_send">Instructions about restoring your password has been sent to the given e-mail.</string>
+  <string name="invalid_grant">E-mail or password is invalid.</string>
+  <string name="error_no_internet_connection">No internet connection.</string>
+  <string name="error_input_email">E-mail must be set!</string>
+  <string name="error_input_pass">Password must be set!</string>
+  <string name="error_input_pass_short">Password must have at least 8 characters!</string>
+  <string name="error_signup_no_name">Firstname and Lastname must be set!</string>
+  <string name="error_unable_save_profile">Unable save profile.</string>
+  <string name="error_signup_repass">Passwords are not same!</string>
+  <string name="error_signup_terms">You must agree with the terms &amp; conditions first!</string>
+  <string name="error_signup_unable">Unable to sign up. Try again later.</string>
+  <string name="sign_out">Sign out</string>
+
+  <string name="signup_success">Sign up successful</string>
+
+  <string name="not_registered">Not registered yet</string>
+  <string name="sign_in_social">Or use social network account</string>
+  <string name="facebook">Facebook</string>
+  <string name="twitter">Twitter</string>
+  <string name="google">Google</string>
+
+  <string name="login_title">Sign in</string>
+  <string name="continue_without_sign_in">Continue without sign in</string>
+  <string name="your_email">Your e-mail</string>
+  <string name="your_pass">Your password</string>
+  <string name="forgot_pass">Forgot password?</string>
+  <string name="sign_up">Sign up</string>
+  <string name="sign_in">Sign in</string>
+  <string name="sign_in_progress">Signing in ....</string>
+  <string name="menu_exit">Exit app</string>
+  <string name="send">Send</string>
+  <string name="create_new_account">Create new account</string>
+  <string name="first_name">First name</string>
+  <string name="last_name">Last name</string>
+  <string name="password">Password</string>
+  <string name="re_password">Retype password</string>
+  <string name="terms_and_conditions">Terms &amp; Conditions of the Working timer app</string>
+  <string name="terms_and_conditions_read">Read terms &amp; conditions</string>
+  <string name="holiday_overtime">Holiday as overtime</string>
+
+  <string name="loading_data_cloud">loading data from the cloud ...</string>
+  <string name="sync_dialog_title">Sync existing data</string>
+  <string name="sync_dialog_msg">Do you want to attach and sync existing data to current account?</string>
+  <string name="sync_error_dialog_title">Unable to sync cloud data</string>
+  <string name="sync_error_dialog_msg">App is unable to load data from the cloud. Try again later or if you have no data stored just proceed.</string>
+  <string name="sync_error_dialog_proceed">Proceed with no data</string>
+  <string name="sync_error_dialog_try_again">Try again</string>
+  <string name="yes">Yes</string>
+  <string name="no">No</string>
+  <string name="data_are_stored_in_cloud">Data are stored in the cloud</string>
+  <string name="last_sync">Last sync: </string>
+  <string name="or">or</string>
+  <string name="then">then</string>
+  <string name="why_sign_in_1">All data are stored and encrypted in our cloud</string>
+  <string name="why_sign_in_2">Sync data among all your devices</string>
+  <string name="why_sign_in_3">More additional features</string>
+  
+  <!-- NEW FEATURES V.21 -->
+  <string name="currency">Currency</string>
+  <string name="add_record">Add a record</string>
+  <string name="add_note">Add a note</string>
+  <string name="remove_ads">Remove ads</string>
+  <string name="shop">Shop</string>
+  <string name="ads_are_removed">Ads are removed.</string>
+  <string name="month_ads_1">1 month</string>
+  <string name="month_ads_3">3 months</string>
+  <string name="month_ads_6">6 months</string>
+  <string name="profile_vacation_remaining">Vacation remaining</string>
+  <string name="vacation_remaining_invalid">Vacation remaining must be equal or less than vacation of year.</string>
+  <string name="transfer">Transfer overtime</string>
+  <string name="transferred">Transferred</string>
+  <string name="remove_ads_for_free">Ads will be removed for 3 days for free</string>
+  <string name="homeoffice">Home office</string>
+  <string name="sickday">Sick day</string>
+  <string name="last_auto_backup">last automatic backup: </string>
+  <string name="automatic_backup">Automatic backup</string>
+  <string name="automatic_backup_restore">Restore backup</string>
+  <string name="country">Country</string>
+  
+  <!-- V.22-->
+  <string name="compensatory_time_off">Compensatory time off</string>
+  <string name="overtime_fund_retention">Overtime fund retention</string>
+  <string name="month">month</string>
+  <string name="months_2">months</string>
+  <string name="months_5">months</string>
+  <string name="remove_transferred">Remove transferred</string>
+  <string name="pick_transfer_time">Set time to transfer or remove</string>
+  <string name="transferred_overtime">Transferred overtime: </string>
+  <string name="available_overtime">Available overtime: </string>
+  <string name="minutes">Minutes</string>
+  <string name="minutes_invalid">Minutes value is invalid!</string>
+  <string name="hours_invalid">Hours value is invalid!</string>
+  <string name="overtime_not_enought">Not enough overtime to transfer.</string>
+  <string name="overtime_not_enought_remove">Not enough transferred overtime to remove.</string>
+  <string name="error_compensatory_time_off">Not enough overtime to create compensatory time off.</string>
+  <string name="month_overtime_transferred_to">Overtime transferred to: </string>
+  <string name="month_overtime_transferred_from">Overtime transferred from: </string>
+  
+  <string name="unpaid_vacation">Unpaid vacation</string>
+  <string name="record_type">Record type</string>
+  <string name="edit">Edit</string>
+  <string name="training">Training</string>
+  <string name="profile_sick_days">Sick days per year</string>
+  <string name="edit_underline">
+    <u>Edit</u>
+  </string>
+  <string name="error_signup_email_exists">User with the given e-mail already exists.</string>
+  
+  <!-- 2.04.08-->
+  <string name="export_profile_name">Export profile name</string>
+  <string name="export_notes">Export notes</string>
+  <string name="export_email_note">E-mail note</string>
+  <string name="export_error_email">E-mail is empty or invalid.</string>
+  <string name="export_wage">Wage</string>
+
+  <!-- 2.04.09-->
+  <string name="holiday_work_day">Holiday as working day</string>
+  <string name="shop_promo_1">Unlimited profiles count</string>
+  <string name="shop_promo_2">Unlimited month work reports</string>
+  <string name="export_watch_ads">Watch ad to get one more try.</string>
+
+  <string name="doctor_visit">Doctor visit</string>
+  <string name="technical_day">Technical day</string>
+  <string name="money">Money</string>
+  
+</resources>
+
